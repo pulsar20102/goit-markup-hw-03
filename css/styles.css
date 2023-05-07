@@ -57,8 +57,8 @@ body {
 
 
 .page-header {
-    padding: 24px 156px;
-
+    border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 
 
@@ -75,12 +75,12 @@ align-items: center;
 
 .menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
-.menu1 {
+.menu-second {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     
 }
 
@@ -101,6 +101,7 @@ line-height: 1.17;
 text-transform: uppercase;
 color: var(--color-brand);
 letter-spacing: 0.03em;
+margin-right: 76px;
 }
 
 .logo-black {
@@ -124,6 +125,7 @@ letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
 }
 
 .item-page:hover,
@@ -178,7 +180,7 @@ letter-spacing: 0.03em;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    width: 496px;
+    max-width: 496px;
     padding-bottom: 48px;
     margin: auto;
    }
@@ -195,6 +197,9 @@ letter-spacing: 0.03em;
     letter-spacing: 0.04em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    display: block; 
+    height: 56px;
+    border: none;
     margin: 0 480px;
    }
 
@@ -207,9 +212,17 @@ letter-spacing: 0.03em;
 
  /* Features */
 
+ .section-advantages {
+    padding: 120px 0;
+ }
+
  .advanteges {
     display: flex;
     gap: 24px;
+ }
+
+ .feature-item {
+    width: calc((100% – 72px)/4);
  }
 
 .feature-title {
@@ -217,7 +230,7 @@ letter-spacing: 0.03em;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     color: var(--color-secondary);
 }
 
@@ -240,7 +253,7 @@ letter-spacing: 0.03em;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-secondary);
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     margin: auto;
 }
 
@@ -271,9 +284,12 @@ letter-spacing: 0.03em;
 border-radius: 0px 0px 4px 4px;
 }
 
+.our-team-title {
+    margin-bottom: 8px;
+}
+
 .workers-items {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 16px;
 }
 
 .name-worker {
@@ -294,9 +310,16 @@ border-radius: 0px 0px 4px 4px;
     letter-spacing: 0.02em;
     color: var(--color-primary);
 }
+
+/* footer */
 .footer {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.logo-footer {
+    display: inline-block; 
+    margin-bottom: 16px; 
 }
 
 .footer-text {
@@ -318,9 +341,9 @@ border-radius: 0px 0px 4px 4px;
 .button-item {
     display: flex;
     gap: 24px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     margin: 0 255px;
-
+    justify-content: center; 
 }
 
 .button-filter {
@@ -340,6 +363,7 @@ border-radius: 0px 0px 4px 4px;
 .button-filter:focus {
     color: var(--color-white);
     background-color: var(--color-background-change);
+    border: 1px solid transparent;
 }
 
 .application {
@@ -374,7 +398,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .item-application {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 16px;
+    border-top: none;
     border: 1px solid var(--color-border);
 }
