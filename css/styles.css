@@ -1,0 +1,215 @@
+:root {
+    --color-secondary: #2e2f42;
+    --color-primary: #434455;
+    --color-white: #FFFFFF;
+    --color-brand: #4D5AE5;
+    --color-brand-changes: #404bbf;
+    --color-brand-light: #F4F4FD;
+    --color-background-white: #FFFFFF;
+    --color-background-dark: #2E2F42;
+    --color-background-light: #F4F4FD;
+    --color-background-brand: #4D5AE5;  
+    --color-background-change: #404BBF;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--color-primary);
+    background-color: var(--color-background-white);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+font-family: "Raleway", sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+text-transform: uppercase;
+color: var(--color-brand);
+letter-spacing: 0.03em;
+}
+
+.logo-black {
+    color: var(--color-secondary);
+}
+
+.logo-white {
+    color:var(--color-brand-light);
+}
+
+.logo-black:hover,
+.logo-black:focus,
+.logo-white:hover,
+.logo-white:focus {
+    color: var(--color-brand);
+}
+
+.item-page {
+    color: var(--color-secondary);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.item-page:hover,
+.item-page:focus {
+  color: var(--color-brand-changes);
+  text-decoration:underline;  
+}
+
+.current {
+    color: var(--color-brand);
+}
+
+.address {
+    font-style: normal; 
+}
+
+.contact {
+    color: var(--color-primary);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+    }
+
+.contact:focus,
+.contact:hover {
+    color: var(--color-brand-changes);
+}
+
+.hero-section,
+.footer {
+    background-color:var(--color-background-dark);
+}
+
+.hero-title {
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+   }
+
+   .hero-button {
+    color: var(--color-white);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color:var(--color-background-brand);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);border-radius: 4px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--color-background-change);
+}
+
+
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary);
+}
+
+.features-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+}
+
+.work-title,
+.our-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary);
+}
+
+.our-team {
+    background-color: var(--color-background-light);
+}
+
+.workers {
+    background-color: var(--color-background-white);
+}
+
+.name-worker {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary);
+}
+
+.profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+}
+
+.footer-text {
+    color: var(--color-brand-light);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.button-filter {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-brand);
+    letter-spacing: 0.04em;
+    background-color: var(--color-background-light);
+    cursor: pointer;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+    color: var(--color-white);
+    background-color: var(--color-background-change);
+}
+
+.application {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary);
+}
+
+.kind-work {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+}
