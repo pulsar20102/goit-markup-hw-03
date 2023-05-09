@@ -74,7 +74,7 @@ align-items: center;
 .page-navigation {
     display: flex;
     align-items: center;
-    column-gap: 76px;
+    /* column-gap: 76px; */
     padding: 24px 0;
 }
 
@@ -106,7 +106,7 @@ line-height: 1.17;
 text-transform: uppercase;
 color: var(--color-brand);
 letter-spacing: 0.03em;
-/* margin-right: 76px;*/
+margin-right: 76px;
 }
 
 .logo-black {
@@ -187,8 +187,8 @@ letter-spacing: 0.03em;
     letter-spacing: 0.02em;
     text-align: center;
     max-width: 496px;
-    margin-bottom: 48px;
-    /* margin: auto;*/
+    /* margin-bottom: 48px; */
+    margin: auto;
 }
 
    .hero-button {
@@ -206,7 +206,7 @@ letter-spacing: 0.03em;
     display: block; 
     height: 56px;
     border: none;
-    margin: 0 480px;
+    margin: 48px 480px 0 480px;
    }
 
 
